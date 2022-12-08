@@ -1,0 +1,35 @@
+.main {
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+
+	.button {
+		font-weight: bold;
+
+		&::after {
+			content: " :)";
+		}
+	}
+
+	.button1 {
+		background-color: red;
+	}
+
+	.button2 {
+		background-color: yellow;
+	}
+
+	.result {
+		font-weight: bold;
+		text-decoration: underline;
+
+		&.style1 {
+			background-color: red;
+		}
+
+		&.style2 {
+			color: yellow;
+		}
+	}
+}

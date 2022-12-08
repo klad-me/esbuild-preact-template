@@ -1,0 +1,41 @@
+:root {
+	font-family: arial;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+}
+
+
+#appMain {
+	margin: 1rem;
+	display: block;
+}
+
+
+header {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #ccf;
+}
+
+
+nav {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+
+.hide {
+	display: none !important;
+}
